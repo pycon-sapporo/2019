@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 
 p {
   line-height: 1.8;
-  margin: 30px 0;
+  margin: 0 0 30px 0;
 }
 
 ul, ol {
@@ -353,6 +353,7 @@ ul, ol {
 }
 ul {
   list-style: none;
+  padding: 0;
 }
 ul li {
   text-indent: 0;
@@ -412,7 +413,7 @@ table th {
 .section-title {
   font-size: 1.571em;
   font-weight: bold;
-  color: #4E6CD9;
+  color: #2D4391;
   margin: 0;
   line-height: 1.5;
   margin-bottom: 30px;
@@ -423,23 +424,19 @@ table th {
 .home-container {
   position: relative;
   max-width: 800px;
-  margin: 0 auto;
+  margin: 0 auto 60px auto;
+  padding: 30px;
+  background: #fff;
+  border-radius: 4px;
 }
 
 @media screen and (max-width: 768px) {
   .home-container {
-    padding-left: 0;
-    padding-right: 0;
+    padding: 20px; 
   }
   .section-title {
     margin-bottom: 10px;
   }
-}
-
-.overview-list{
-  padding: 30px;
-  background: #fff;
-  border-radius: 4px;
 }
 
 .overview-list dt {
@@ -462,6 +459,32 @@ table th {
 }
 
 
+a.btn-type01{
+  color: #fff;
+  padding: 10px 20px;
+  display: inline-block;
+  background: #FF7AC4;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 2px;
+  letter-spacing: .1em;
+}
+
+.btn-list__item{
+  margin-bottom: 10px;
+}
+
+.footer{
+  text-align: center;
+  letter-spacing: .15em;
+}
+
+.footer a{
+  text-decoration: none;
+  color: #fff;
+}
+
+
 @media (min-width: 769px) {
   .overview-list{
     display: flex;
@@ -481,6 +504,13 @@ table th {
     margin-top: 0;
     padding-top: 0;
   }
+
+  .btn-list__item{
+    display: inline-block;
+    margin-right: 10px;
+  margin-bottom: 0px;
+  }
+
 }
 
 .is-sp{
