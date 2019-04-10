@@ -4,7 +4,6 @@
   <meta charset="UTF-8">
   <title>PyCon mini Sapporo 2019</title>
   <meta name="description" content="PyCon mini Sapporo は「Pythonの魅力をもっと多くの人に知ってほしい」「札幌でもPythonを広めたい」そんな思いで開催するイベントです。">
-  <meta name="keywords" content="PyCon,PyCon mini,Python,札幌">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css?family=Montserrat:600" rel="stylesheet">
   <link rel="stylesheet" href="common/css/style.css">
@@ -18,76 +17,165 @@
   <meta name="twitter:description" content="PyCon mini Sapporo は「Pythonの魅力をもっと多くの人に知ってほしい」「札幌でもPythonを広めたい」そんな思いで開催するイベントです。">
   <meta name="twitter:image" content="http://sapporo.pycon.jp/2019/common/img/ogp.png">
 </head>
-<body class="top">
+<body id="home" class="top">
 <div class="container">
 
-  <header class="mainvisual">
+<div class="menu">
+  <a href="#" class="menu__link js-menu">
+    <span class="menu__button">
+      <span class="menu__icon"></span>
+    </span>
+  </a>
+</div>
+
+<nav class="nav">
+  <ul class="nav-list">
+    <li class="nav-list__item"><a href="#home">HOME</a></li>
+    <li class="nav-list__item"><a href="#overview">イベントの概要</a></li>
+    <li class="nav-list__item"><a href="#guest">ゲストスピーカー</a></li>
+    <li class="nav-list__item"><a href="#timetable">タイムテーブル</a></li>
+    <li class="nav-list__item"><a href="#sponsor">スポンサー</a></li>
+    <li class="nav-list__item"><a href="#past">過去の開催</a></li>
+    <li class="nav-list__item nav-list__btn"><a class="btn-type01" href="https://passmarket.yahoo.co.jp/event/show/detail/01pmgk1059b3c.html" target="_blank">参加申し込み</a></li>
+    <li class="nav-list__item"><a class="entry" href="https://passmarket.yahoo.co.jp/event/show/detail/0150bn106z1nm.html" target="_blank">懇親会申し込み</a></li>
+  </ul>
+</nav>
+
+
+<div class="mainvisual">
+  <div class="mainvisual-container">
     <img src="common/img/mainvisual.png" class="is-pc" alt="PyCon mini Sapporo 2019">
     <img src="common/img/mainvisual-sp.png" class="is-sp" alt="PyCon mini Sapporo 2019">
-  </header>
+    <div class="mainvisual-date">2019.5.11 SAT<span class="is-pc"> / </span><br class="is-sp">札幌市産業振興センター</div>
+    <a href="https://passmarket.yahoo.co.jp/event/show/detail/01pmgk1059b3c.html" class="btn-entry" target="_blank">参加申し込み</a>
+  </div>
+</div>
       
-  <main>
-    <section class="overview">
-        <h2 class="section-title">イベントの概要</h2>
-      <div class="home-container">
-        <dl class="overview-list">
-          <dt>開催日時</dt>
-          <dd>2019年5月11日（土） 11:00-18:00（予定）</dd>
+<main>
 
-          <dt>開催場所</dt>
-          <dd>札幌市産業振興センター</dd>
 
-          <dt>主催</dt>
-          <dd>PyCon mini Sapporo 実行委員会</dd>
-          <dt>後援</dt>
-          <dd><a href="http://www.pycon.jp" target="_blank">一般社団法人 PyCon JP</a>, <a href="http://www.local.gr.jp/" target="_blank">一般社団法人 LOCAL</a></dd>
-        </dl>
-      </div>
-    </section>
 
-    <section class="guest">
-      <h2 class="section-title">ゲストスピーカー</h2>
-      <div class="home-container">
-        <ul class="guest-list">
-          <li class="guest-list__item">
-            <div class="photo"><img src="common/img/speaker/AtsushiShibata.jpg" alt=""></div>
-            
-            <div class="description">
-              <h3 class="name">柴田 淳<span class="name-en">Atsushi Shibata</span></h3>
-            <p>「みんなのPython」の著者。2000年代初期からPythonを業務に利用。大規模サイトCMS，大手出版社用テキストマイニングシステム，Googleキャンペーンサイトなどを手がける。現在は自社サービスの開発，講師，書籍の執筆などを行う。</p></div>
-          </li>
+<section id="overview" class="overview">
+  <h2 class="section-title">イベントの概要</h2>
+  <div class="home-container">
+    <dl class="overview-list">
+      <dt>開催日時</dt>
+      <dd>2019年5月11日（土） 11:00-18:00（予定）</dd>
 
-           <li class="guest-list__item">
-            <div class="photo"><img src="common/img/speaker/ShogoMatsumoto.jpg" alt=""></div>
-            
-            <div class="description">
-              <h3 class="name">松本 照吾<span class="name-en">Shogo Matsumoto</span></h3>
-            <p>Amazon Web Service Japan パブリックセクター　コンサルティング本部 Senior Security Consultant<br>
-セキュリティソリューションのプロダクトSEを経て、セキュリティ専業のコンサルティング会社に転職。情報セキュリティ監査や事業継続計画（BCP）、PCI DSSの審査員（QSA）等を担当。2015年より現職。主に公共分野のセキュリティ、コンプライアンス支援を担当</p></div>
-          </li>
+      <dt>開催場所</dt>
+      <dd>札幌市産業振興センター <a href="https://goo.gl/maps/8m6nFAttd7K2" target="_blank">Googleマップ</a></dd>
+
+      <dt>参加費</dt>
+      <dd>
+        <ul>
+          <li>一般 1,000円</li>
+          <li>個人スポンサー 3,000円</li>
+          <li>学生無料（学生への交通費支援を行ないます。詳細は<a href="https://passmarket.yahoo.co.jp/event/show/detail/01pa2w106z3h2.html" target="_blank">こちら</a>をご覧ください。）</li>
         </ul>
-      </div>
-    </section>
+      </dd>
 
-    <section class="sponsor">
-      <h2 class="section-title">スポンサー募集</h2>
-      <div class="home-container">
-        スポンサーのご応募ありがとうございました。スポンサーの募集は締め切りました。
-      </div>
-    </section>
+      <dt>主催</dt>
+      <dd>PyCon mini Sapporo 実行委員会</dd>
+      
+      <dt>後援</dt>
+      <dd>
+        <ul>
+          <li><a href="http://www.pycon.jp" target="_blank">一般社団法人 PyCon JP</a></li>
+          <li><a href="http://www.local.gr.jp/" target="_blank">一般社団法人 LOCAL</a></li>
+        </ul>
+      </dd>
+    </dl>
 
-    <section class="past">
-      <h2 class="section-title">過去の開催</h2>
-      <div class="home-container">
-        <a href="https://sapporo.pycon.jp/2015/" target="_blank">PyCon mini Sapporo 2015</a>
-      </div>
-    </section>
+  </div>
+  <div class="btn-area"><a href="https://passmarket.yahoo.co.jp/event/show/detail/01pmgk1059b3c.html" class="btn-type01" target="_blank">参加申し込み</a></div>
+</section>
+
+<section id="guest" class="guest">
+  <h2 class="section-title">ゲストスピーカー</h2>
+  <div class="home-container">
+    <ul class="guest-list">
+      <li class="guest-list__item">
+        <div class="photo"><img src="common/img/speaker/AtsushiShibata.jpg" alt=""></div>
+        <div class="description">
+          <h3 class="name">柴田 淳<span class="name-en">Atsushi Shibata</span></h3>
+          <p>「みんなのPython」の著者。2000年代初期からPythonを業務に利用。大規模サイトCMS，大手出版社用テキストマイニングシステム，Googleキャンペーンサイトなどを手がける。現在は自社サービスの開発，講師，書籍の執筆などを行う。</p>
+        </div>
+      </li>
+
+      <li class="guest-list__item">
+        <div class="photo"><img src="common/img/speaker/ShogoMatsumoto.jpg" alt=""></div>
+        <div class="description">
+          <h3 class="name">松本 照吾<span class="name-en">Shogo Matsumoto</span></h3>
+          <p>Amazon Web Service Japan パブリックセクター　コンサルティング本部 Senior Security Consultant<br>
+          セキュリティソリューションのプロダクトSEを経て、セキュリティ専業のコンサルティング会社に転職。情報セキュリティ監査や事業継続計画（BCP）、PCI DSSの審査員（QSA）等を担当。2015年より現職。主に公共分野のセキュリティ、コンプライアンス支援を担当</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<section id="timetable" class="timetable">
+  <h2 class="section-title">タイムテーブル</h2>
+  <div class="home-container">
+ 近日公開予定
+  </div>
+</section>
+
+
+<section id="sponsor" class="sponsor-list">
+  <h2 class="section-title">企業スポンサー</h2>
+  <div class="home-container">
+    <dl class="company-sponsor">
+      <dt class="company-sponsor__banner"><a href="https://www.serverworks.co.jp/" target="_blank"><img src="common/img/banner_serverworks.png" alt="株式会社サーバーワークス"></a></dt>
+      <dd class="company-sponsor__description">クラウド専業のクラウドインテグレーターのサーバーワークスは、AWSを中心とした、あらゆるクラウドサービスと組み合わせたソリューションを提供することを得意としています。<br>これまでのノウハウを活かして、当社のビジョンである「クラウドで、世界を、もっと、はたらきやすく」を実現すべく、皆様のはたらく環境の課題に向き合っております。<br>そのためにはまずは自分たちがはたらきやすい環境を作っていこう、という想いで様々な取り組みをしています。<br>生産性向上のためのクラウドワークスタイル<br>使い慣れたデバイスでパフォーマンスを上げるBYOD制度<br>業務内容に応じて場所を選べるフリーアドレス化<br>拠点は東京を本社に、大阪、名古屋、福岡、仙台と全国にあり、AWS事業を継続的に拡大中！
+      </dd>
+
+
+      <dt class="company-sponsor__banner"><a href="https://colsis.jp/" target="_blank"><img src="common/img/banner_colsis.png" alt="株式会社コルシス"></a></dt>
+      <dd class="company-sponsor__description">COLSIS（コルシス）は東京・札幌を拠点に少数精鋭で開発を行っている会社です。<br>国内では大規模なコーポレートサイトやサービスサイトの構築をUX/UI設計から制作・開発・インフラまでトータルでサポートし、海外では発展を遂げている東南アジアを中心に旅行システムやWebサービスなどのシステム開発をしています。<br>バックエンド開発にはPythonやPerl、フレームワークにはDjangoなどを採用し、フロント開発にはVue.jsを採用する事が多くインフラはAWS・GCP・Alibaba Cloudなどクラウドを利用しています。エンジニアの方が働きやすい環境を重視しており、MacBookProとハーマンミラーのチェアで開発しています。</dd>
+
+
+      <dt class="company-sponsor__banner"><a href="https://www.beproud.jp/" target="_blank"><img src="common/img/banner_beproud.png" alt="株式会社ビープラウド"></a></dt>
+      <dd class="company-sponsor__description">ビープラウドはPythonをメイン言語とし、優秀なPythonistaがより力を発揮できる環境作りに努めています。<br>Pythonに特化したオンライン学習サービス「PyQ（パイキュー）」<br>研修事業・技術書「Pythonプロフェッショナルプログラミング第3版」<br>「いちばんやさしいPythonの教本」執筆などを通してそのノウハウを発信しています。<br>また、IT勉強会支援プラットフォーム「connpass（コンパス）」の運営や勉強会「BPStudy」の主催など、コミュニティ活動にも積極的に取り組んでいます。</dd>
+
+      
+      <dt class="company-sponsor__banner"><a href="https://mierune.co.jp/" target="_blank"><img src="common/img/banner_mierune.png" alt="株式会社MIERUNE"></a></dt>
+      <dd class="company-sponsor__description">GPS・IoT・web技術の発達により、さまざまな分野で位置情報のニーズが急激に高まりつつあります。<br>MIERUNEでは、これら位置情報にかかわる豊富な経験と実績をもつスタッフを揃え、オープンデータ・ビックデータを活用したオープンソースGISソフト(FOSS4G)によるシステム開発・コンサルティングや、自社開発商品の提供を行っております。<br>自社開発商品「MIERUNE地図」<br>WebページやGISなどにすぐ取り込める配信型背景地図データです。Leaflet、OpenLayers、Cesium、MapBox GL JS、QGIS、ArcGISといった地図に関するライブラリやソフトウェアなどにすぐ組み込める形で提供します。<br>自社開発商品「MIERUNE QGIS 行政機関向けパッケージ」<br>高性能かつオープンソース(改良・再配布自由)のQGISを、行政機関向けにカスタマイズし、お手頃価格なパッケージ版として提供しています。</dd>
+
+
+      <dt class="company-sponsor__banner"><a href="https://classmethod.jp/" target="_blank"><img src="common/img/banner_classmethod.png" alt="クラスメソッド株式会社"></a></dt>
+      <dd class="company-sponsor__description">クラスメソッド株式会社はAWSクラウドをはじめ、ビッグデータ、モバイル、IoT、音声認識の技術を活用した企業向け支援を行っています。<br>AWS支援では2015年から5年連続で公式の最上位コンサルティングパートナーに認定され、現在までに1,200社3,000アカウント以上のAWS導入実績があります。<br>また、社員による技術情報発信にも力を入れており、オウンドメディア「Developers.IO」では1.5万本以上の技術情報を公開中です。<br>「すべての人々の創造活動に貢献し続ける」という企業理念のもとに幅広い分野で活動しています。</dd>
+
+
+      <dt class="company-sponsor__banner"><a href="https://open-degu.com/" target="_blank"><img src="common/img/banner_degu.png" alt="Deguプロジェクト"></a></dt>
+      <dd class="company-sponsor__description">「Degu（デグー）」は、IoTシステムをDIY感覚で実現するセンサー技術を提供するオープンソースプロジェクトです。Deguを使えば、IoTデバイスの設定からAWSなどのクラウドプラットフォームとの連携まで、MicroPythonを使って簡単に設定するだけで実現できます。200種類超のGroveセンサーモジュールの中から好きなものをピックアップして用途に応じたセンサーを簡単に実現できるキットも提供。センシングデータをクラウドに収集するまでの流れはDeguに任せて、付加価値を生み出すクラウドアプリケーションの開発に集中できる環境を手に入れましょう！</dd>
+      
+
+      <dt class="company-sponsor__banner"><a href="https://www.sakura.ad.jp/" target="_blank"><img src="common/img/banner_sakurainternet.png" alt="さくらインターネット株式会社"></a></dt>
+      <dd class="company-sponsor__description">
+        さくらインターネット株式会社は、北海道にある省エネルギー型の「石狩データセンター」をはじめ、国内で5カ所のデータセンターを運営しています。<br>また、「さくらのレンタルサーバ」「さくらのVPS」「さくらのクラウド」など、CPの優れたインターネットインフラサービスのほか、AI・ディープラーニング開発に最適なGPUを搭載した「高火力コンピューティング」、通信環境や連携処理に必要なシステムを一体で提供するIoTプラットフォーム「sakura.io」、IoT/M2M向けSIMサービス「さくらのセキュアモバイルコネクト」など、さまざまなお客さまのニーズに合わせたサービスを提供しています。最近では、日本初の衛星データプラットフォーム「Tellus（テルース）」の提供を開始しました。
+      </dd>
+    </dl>
+  </div>
+  <h2 class="section-title">スタートアップスポンサー</h2>
+  <div class="home-container">
+    <ul class="startup-sponsor">
+      <li class="sponsor-banner__item"><a href="https://shinonomelabo.com/" target="_blank"><img src="common/img/banner_shinonomelabo.png" alt="東雲研究所"></a></li>
+    </ul>
+  </div>
+</section>
+
+<section id="past" class="past">
+  <h2 class="section-title">過去の開催</h2>
+  <div class="home-container">
+    <a href="https://sapporo.pycon.jp/2015/" target="_blank">PyCon mini Sapporo 2015</a>
+  </div>
+</section>
    
-
-  </main>
-
-
-
+</main>
 </div><!-- /.container -->
-</body>
+
+<script src="common/js/jquery.js"></script>
+<script src="common/js/jquery.easing.1.3.js"></script>
+<script src="common/js/app.js"></script>
 </html>
