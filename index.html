@@ -31,6 +31,7 @@
 <nav class="nav">
   <ul class="nav-list">
     <li class="nav-list__item"><a href="#home">HOME</a></li>
+    <li class="nav-list__item"><a href="#about">このイベントについて</a></li>
     <li class="nav-list__item"><a href="#overview">イベントの概要</a></li>
     <li class="nav-list__item"><a href="#guest">ゲストスピーカー</a></li>
     <li class="nav-list__item"><a href="#timetable">タイムテーブル</a></li>
@@ -53,6 +54,13 @@
       
 <main>
 
+<section id="about" class="about">
+  <h2 class="section-title">このイベントについて</h2>
+  <div class="home-container">
+    <p>PyCon mini Sapporo は「Pythonの魅力をもっと多くの人に知ってほしい」「札幌でもPythonを広めたい」そんな思いで開催するイベントです。約4年ぶりの開催ですが、PythonがAIや機械学習などで使われることにより、前回よりもPythonの需要は高まっているように感じます。</p>
+    <p>そこで今回はPython初心者から中級者、特にPythonを学びたい若手エンジニアや学生向けのセッションを多数用意しました。<br>ぜひイベントに参加して、みんなで一緒にPythonを学びましょう！</p>
+  </div>
+</section>
 
 
 <section id="overview" class="overview">
@@ -60,7 +68,7 @@
   <div class="home-container">
     <dl class="overview-list">
       <dt>開催日時</dt>
-      <dd>2019年5月11日（土） 11:00-18:00（予定）</dd>
+      <dd>2019年5月11日（土） 11:00-18:10（10:30受付開始）</dd>
 
       <dt>開催場所</dt>
       <dd>札幌市産業振興センター <a href="https://goo.gl/maps/8m6nFAttd7K2" target="_blank">Googleマップ</a></dd>
@@ -95,7 +103,7 @@
   <div class="home-container">
     <ul class="guest-list">
       <li class="guest-list__item">
-        <div class="photo"><img src="common/img/speaker/AtsushiShibata.jpg" alt=""></div>
+        <div class="photo"><img src="common/img/speaker/AtsushiShibata.jpg" alt="写真：柴田 淳"></div>
         <div class="description">
           <h3 class="name">柴田 淳<span class="name-en">Atsushi Shibata</span></h3>
           <p>「みんなのPython」の著者。2000年代初期からPythonを業務に利用。大規模サイトCMS，大手出版社用テキストマイニングシステム，Googleキャンペーンサイトなどを手がける。現在は自社サービスの開発，講師，書籍の執筆などを行う。</p>
@@ -103,7 +111,7 @@
       </li>
 
       <li class="guest-list__item">
-        <div class="photo"><img src="common/img/speaker/ShogoMatsumoto.jpg" alt=""></div>
+        <div class="photo"><img src="common/img/speaker/ShogoMatsumoto.jpg" alt="写真：松本 照吾"></div>
         <div class="description">
           <h3 class="name">松本 照吾<span class="name-en">Shogo Matsumoto</span></h3>
           <p>Amazon Web Service Japan パブリックセクター　コンサルティング本部 Senior Security Consultant<br>
@@ -117,7 +125,278 @@
 <section id="timetable" class="timetable">
   <h2 class="section-title">タイムテーブル</h2>
   <div class="home-container">
- 近日公開予定
+    <p class="comments">セミナールーム Cはセミナールーム Aのサテライトです。(11:00 - 17:10)</p>
+       <table>
+          <thead>
+            <tr class="is-pc">
+              <th class="timetable__time"></th>
+              <th class="timetable-roomA__title">セミナールーム A</th>
+              <th class="timetable-roomB__title">セミナールーム B</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <th>10:30</th>
+              <td class="timetable__typeA" colspan="2">受付開始</td>
+            </tr>
+            <tr>
+              <th>11:00<br class="is-pc"> - <br class="is-pc">11:10</th>
+              <td class="timetable__typeA"><div class="room-title is-sp">セミナールーム A</div>オープニング</td>
+              <td class="no-session is-pc"></td>
+            </tr>
+
+            <tr>
+              <th>11:10<br class="is-pc"> - <br class="is-pc">12:00</th>
+              <td>
+                <div class="room-title is-sp">セミナールーム A</div>
+                <span class="keynote">ゲストスピーカー</span>
+                <h3 class="session-title">Pythonとはなんなのか？</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/AtsushiShibata.jpg" alt="写真：柴田 淳"></div>
+                  <div class="speaker-information__name">柴田 淳<br><a href="https://twitter.com/ats" target="_blank">@ats</a></div>
+                </div>
+                <div class="discription">機械学習，Web開発，ネットワーク機器の制御や教育まで幅広く活用され，今や世界で一番人気のあるプログラミング言語とも言われるようになったPythonの正体について，縦横に解説します。</div>
+              </td>
+              <td class="no-session is-pc"></td>
+            </tr>
+            
+
+            <tr>
+              <th>12:00<br class="is-pc"> - <br class="is-pc">12:05</th>
+              <td class="no-session" colspan="2">休憩</td>
+            </tr>
+
+
+            <tr>
+              <th>12:05<br class="is-pc"> - <br class="is-pc">12:35</th>
+              <td>
+                <div class="room-title is-sp">セミナールーム A</div>
+                <h3 class="session-title">実験から量産までMicroPythonで動く! IoTセンサー Degu(デグー) を作った話</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/keimei.jpg" alt="写真：大澤 啓明"></div>
+                  <div class="speaker-information__name">大澤 啓明<br><a href="https://twitter.com/keimei" target="_blank">@keimei</a></div>
+                </div>
+                <div class="discription">組込み向けPython である MicroPython でカスタマイズ可能なIoTセンサーデバイスをオープンソースで公開するDegu Project(<a href="https://open-degu.com/" target="_blank">https://open-degu.com/</a>)を発足しました。<br>Degu Project が目指す、センシングからクラウド上のデータ更新まで対応するコンセプトと、開発の裏側を紹介します。</div>
+              </td>
+              <td>
+                <div class="room-title is-sp">セミナールーム B</div>
+                <h3 class="session-title">地方コミュニティから分析のお仕事をはじめた話とTesseract-OCR ver.4による文字認識・学習手法</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/yasubeitwi.jpg" alt="写真：鈴木 康元"></div>
+                  <div class="speaker-information__name">鈴木 康元<br><a href="https://twitter.com/yasubeitwi" target="_blank">@yasubeitwi</a></div>
+                </div>
+                <div class="discription">オフラインOCRで有名なtesseract-ocrのver.4が昨年リリースされました。DeepLearning(LSTM)を取り込み学習手法や改善の手法もver.3とは大きく変わりましたが、互換性を保ちつつ学習する手法や多様なパラメータの種類と、解析の自動化のために構築したWEBサーバ等について解説します。</div>
+              </td>
+            </tr>
+
+
+            <tr>
+              <th>12:35<br class="is-pc"> - <br class="is-pc">13:35</th>
+              <td class="no-session" colspan="2">ランチ休憩</td>
+            </tr>
+
+
+            <tr>
+              <th>13:35<br class="is-pc"> - <br class="is-pc">14:05</th>
+              <td>
+                <div class="room-title is-sp">セミナールーム A</div>
+                <h3 class="session-title">Pythonで挑戦！U-16プログラミングコンテストの紹介</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/yamaki_panda.png" alt="写真：八巻 正行"></div>
+                  <div class="speaker-information__name">八巻 正行<br><a href="https://twitter.com/yamaki_panda" target="_blank">@yamaki_panda</a></div>
+                </div>
+                <div class="discription">旭川発で全国へ広がりを見せている「U-16プログラミングコンテスト」。昨年、札幌市で初開催となった第1回札幌大会の競技部門では、子ども達が挑戦するプログラミング言語としてPythonを採用しました。<br>なぜPythonなのか？子ども達はどのようにしてPythonを学ぶのか？実際のコーディング例とデモを交えながら、U-16プログラミングコンテストの取り組みについて紹介します。</div>
+              </td>
+              <td>
+                <div class="room-title is-sp">セミナールーム B</div>
+                <h3 class="session-title">Simple-Spotify: Pythonでシンプルに楽曲データを扱うライブラリ</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/NaoY_py.jpg" alt="写真：横山 直敬"></div>
+                  <div class="speaker-information__name">横山 直敬<br><a href="https://twitter.com/NaoY_py" target="_blank">@NaoY_py</a></div>
+                </div>
+                <div class="discription">音楽ストリーミングサービスSpotifyは開発者向けAPIを公開しています。このAPIでは楽曲やアーティスト、プレイリストの情報が取得できます。またそれだけでなく、曲の長さ、テンポ、キーなどといった楽曲の構成要素や解析データも取得することができます。アプリやデータ分析など応用できる幅は様々です。Spotify APIの使い方は簡単ですが、認証フローが複数あることがハマりどころろです。<br>この発表では、Spotify APIを認証フローも含めてシンプルに使うために開発しているラッパーライブラリSimple-Spotifyを解説します。またいくつかのユースケースも紹介します。</div>
+              </td>
+            </tr>
+
+
+            <tr>
+              <th>14:05<br class="is-pc"> - <br class="is-pc">14:10</th>
+              <td class="no-session" colspan="2">休憩</td>
+            </tr>
+
+
+            <tr>
+              <th>14:10<br class="is-pc"> - <br class="is-pc">14:40</th>
+              <td>
+                <div class="room-title is-sp">セミナールーム A</div>
+                <h3 class="session-title">Jupyter Notebookではじめるインタラクティブな開発環境入門</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/__john_smith__a.png" alt="写真：じょんすみす"></div>
+                  <div class="speaker-information__name">じょんすみす<br><a href="https://twitter.com/__john_smith__a" target="_blank">@__john_smith__a</a></div>
+                </div>
+                <div class="discription">Jupyter Notebookはブラウザから利用可能なPythonの実行環境です。プログラムをインタラクティブに実行してその動作を確認できるとともに、一連の流れをファイルとして保存することで再現可能な実験的プログラムを効率よく作成可能です。また、Githubなどを使うことで記述されたプログラムやその処理結果、処理内容に関するメモを共有することが可能になります。本発表を通して、Jupyter Notebookを使った開発の利便性を実感してください。</div>
+              </td>
+              <td>
+                <div class="room-title is-sp">セミナールーム B</div>
+                <h3 class="session-title">ZappaでDBもパッケージしたサーバーレスAPIを構築してみた</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/kirimoto.png" alt="写真：Yasunori Kirimoto"></div>
+                  <div class="speaker-information__name">Yasunori Kirimoto<br><a href="https://twitter.com/dayjournal_nori" target="_blank">@dayjournal_nori</a></div>
+                </div>
+                <div class="discription">Zappaとは、AWSのLambdaやAPI Gateway等のサービスを利用し、Webアプリケーションを手軽に構築できるPythonのサーバーレスフレームワークです。Zappaを利用することで、AWSの各サービスの詳細設定不要でサーバーレスアプリケーションをデプロイすることが可能です。<br>今回は、DBもパッケージしたサーバーレス住所検索APIを構築する方法を紹介していきたいと思います。</div>
+              </td>
+            </tr>
+
+
+            <tr>
+              <th>14:40<br class="is-pc"> - <br class="is-pc">14:45</th>
+              <td class="no-session" colspan="2">休憩</td>
+            </tr>
+
+
+            <tr>
+              <th>14:45<br class="is-pc"> - <br class="is-pc">14:55</th>
+              <td>
+                <div class="room-title is-sp">セミナールーム A</div>
+                <h3 class="session-title">スポンサーセッション1</h3>
+                <a href="https://mierune.co.jp/" target="_blank">株式会社MIERUNE</a> / <a href="https://classmethod.jp/" target="_blank">クラスメソッド株式会社</a>
+              </td>
+              <td class="no-session is-pc"></td>
+            </tr>
+
+
+            <tr>
+              <th>14:55<br class="is-pc"> - <br class="is-pc">15:00</th>
+              <td class="no-session" colspan="2">休憩</td>
+            </tr>
+
+
+            <tr>
+              <th>15:00<br class="is-pc"> - <br class="is-pc">15:50</th>
+              <td>
+                <div class="room-title is-sp">セミナールーム A</div>
+                <span class="keynote">ゲストスピーカー</span>
+                <h3 class="session-title">“Pythonでセキュリティ”はじめの一歩ーSANS InstituteのPython ー<br>SANS InstituteのAutomating Information Security with Pythonうけてみた</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/ShogoMatsumoto.jpg" alt="写真：松本 照吾"></div>
+                  <div class="speaker-information__name">松本 照吾<br><a href="https://twitter.com/matg31" target="_blank">@matg31</a></div>
+                </div>
+                <div class="discription">本セッションでは、AWSの中で、どちらかといえばコンプライアンス寄りの仕事をしている人間（Code初心者！）の目線で、セキュリティの自動化などにおけるPythonのお話をします。その中で世界最大規模のセキュリティカンファレンスであるRSAカンファレンスで受講したPythonによるSecurity Automationのセッション受講談や、クラウドでの利活用の話などにふれたいと思います。</div>
+              </td>
+              <td class="no-session is-pc"></td>
+            </tr>
+
+
+            <tr>
+              <th>15:50<br class="is-pc"> - <br class="is-pc">16:00</th>
+              <td class="no-session" colspan="2">休憩</td>
+            </tr>
+
+
+            <tr>
+              <th>16:00<br class="is-pc"> - <br class="is-pc">16:30</th>
+              <td>
+                <div class="room-title is-sp">セミナールーム A</div>
+                <h3 class="session-title">PythonistaのためのコードレビューTips</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/massa142.jpeg" alt="写真：新井 正貴"></div>
+                  <div class="speaker-information__name">新井 正貴<br><a href="https://twitter.com/massa142" target="_blank">@massa142</a></div>
+                </div>
+                <div class="discription">チーム開発では欠かせないものだけど、意外と難しいコードレビュー。この発表ではPythonistaが明日から使えるコードレビューの実践的なtipsを紹介します。
+                  <ul>
+                    <li>Style Guide / Lint /Auto Format / pre-commit hooks</li>
+                    <li>PRの書き方 / WIPの活用 / Gifアニメーション・キャプチャの添付</li>
+                    <li>PRのサイズ / Dangerでのチェック</li>
+                    <li>レビューコメントの書き方 / [nits] [IMO] [must] [ask] prefixの活用</li>
+                    <li>レビューで長い議論が発生した場合の対処方法</li>
+                    <li>絵文字・LGTM画像の活用</li>
+                  </ul>
+                </div>
+              </td>
+              <td>
+                <div class="room-title is-sp">セミナールーム B</div>
+                <h3 class="session-title">Pythonとラズパイでラジコンカーをを自動操縦に！</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/halasun.JPG" alt="写真：稲地 稔"></div>
+                  <div class="speaker-information__name">稲地 稔<br><a href="https://twitter.com/halasun" target="_blank">@halasun</a></div>
+                </div>
+                <div class="discription">ラジコンカーを改造してラズパイ上のPythonで制御できるようにしたAIカー、Donkey Carプロジェクトを紹介します。部材の入手から自動運転までの一連の手順、Pythonによる制御がどうなっているかについて説明します。</div>
+              </td>
+            </tr>
+
+            <tr>
+              <th>16:30<br class="is-pc"> - <br class="is-pc">16:40</th>
+              <td class="no-session" colspan="2">休憩</td>
+            </tr>
+
+
+            <tr>
+              <th>16:40<br class="is-pc"> - <br class="is-pc">17:10</th>
+              <td>
+                <div class="room-title is-sp">セミナールーム A</div>
+                <h3 class="session-title">入門pandas - 仕事と趣味で実践的に使うためのお作法</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/shinyorke.jpg" alt="写真：Shinichi Nakagawa"></div>
+                  <div class="speaker-information__name">Shinichi Nakagawa<br><a href="https://twitter.com/shinyorke" target="_blank">@shinyorke</a></div>
+                </div>
+                <div class="discription">【概要】<br>Pythonを使ったデータ分析でよく使われるpandasを、仕事や趣味のデータ分析・解析ですぐ活かせるノウハウを紹介します.<br>【参考文献】<br>こちらのエントリーの内容+データ入力・出力で使えそうなノウハウを実践例交えて紹介します.<br>[うわっ…私のpandas、遅すぎ…?って時にやるべきこと（先人の知恵より）]<br><a href="https://shinyorke.hatenablog.com/entry/pandas-tips" target="_blank">https://shinyorke.hatenablog.com/entry/pandas-tips</a></div>
+              </td>
+              <td>
+                <div class="room-title is-sp">セミナールーム B</div>
+                <h3 class="session-title">WSGIアプリケーションで遊んでみよう</h3>
+                <div class="speaker-information">
+                  <div class="speaker-information__photo"><img src="common/img/speaker/kuroneko1988.jpg" alt="写真：早坂 亮佑"></div>
+                  <div class="speaker-information__name">早坂 亮佑<br><a href="https://twitter.com/kuroneko1988" target="_blank">@kuroneko1988</a></div>
+                </div>
+                <div class="discription">PythonにはDjnagoやBottleなど多くのウェブフレームワークがあります。広く普及しているウェブフレームワークはWSGIという標準化されたインタフェースに沿って実装されています。<br>本発表では、WSGIの概要とWSGIの仕様に準拠した簡易なウェブフレームワークの実装について紹介します。<br>WSGI準拠のウェブフレームワークを何気なくつかっている方にとって、少しだけ内部の仕組みについて知っていただければ幸いです。</div>
+              </td>
+            </tr>
+
+
+            <tr>
+              <th>17:10<br class="is-pc"> - <br class="is-pc">17:15</th>
+              <td class="no-session" colspan="2">休憩</td>
+            </tr>
+
+
+            <tr>
+              <th>17:15<br class="is-pc"> - <br class="is-pc">17:25</th>
+              <td>
+                <div class="room-title is-sp">セミナールーム A</div>
+                <h3 class="session-title">スポンサーセッション2</h3>
+                <a href="https://open-degu.com/" target="_blank">Deguプロジェクト</a> / <a href="https://www.sakura.ad.jp/" target="_blank">さくらインターネット株式会社</a>
+              </td>
+              <td class="no-session is-pc"></td>
+            </tr>
+
+            <tr>
+              <th>17:25<br class="is-pc"> - <br class="is-pc">17:30</th>
+              <td class="no-session" colspan="2">休憩</td>
+            </tr>
+
+            <tr>
+              <th>17:30<br class="is-pc"> - <br class="is-pc">18:00</th>
+              <td>
+                <div class="room-title is-sp">セミナールーム A</div>
+                <h3 class="session-title">LT</h3>
+                <ul>
+                  <li><a href="https://twitter.com/ravicot" target="_blank">@ravicot</a></li>
+                  <li><a href="https://twitter.com/fel97048" target="_blank">@fel97048</a></li>
+                  <li><a href="https://twitter.com/tacck" target="_blank">@tacck</a></li>
+                  <li><a href="https://twitter.com/pacsolution" target="_blank">@pacsolution</a></li>
+                  <li><a href="https://twitter.com/kinkedoudid" target="_blank">@kinkedoudid</a></li>
+                </ul>
+              </td>
+              <td class="no-session is-pc"></td>
+            </tr>
+
+            <tr>
+              <th>18:00<br class="is-pc"> - <br class="is-pc">18:10</th>
+              <td class="timetable__typeA"><div class="room-title is-sp">セミナールーム A</div>クロージング</td>
+              <td class="no-session is-pc"></td>
+            </tr>
+          </tbody>
+        </table>
   </div>
 </section>
 
