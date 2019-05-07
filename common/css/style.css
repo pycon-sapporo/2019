@@ -455,10 +455,11 @@ table th {
   letter-spacing: .2em;
 }
 
-a.btn-entry,a.btn-back{
+a.btn-entry{
   color: #fff;
   display: inline-block;
-  margin: 0 auto;
+  width: 200px;  
+  margin: 0 5px;
   padding: 15px 50px;
   border-radius: 30px; 
   letter-spacing: .2em;
@@ -478,6 +479,10 @@ a.btn-entry,a.btn-back{
     font-size: 1.6rem;
     line-height: 2.0;
     margin: 20px 0;
+  }
+
+  a.btn-entry{
+    margin-bottom: 10px;
   }
 }
 
